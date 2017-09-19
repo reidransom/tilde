@@ -7,37 +7,45 @@
     // if none of the specified keys are matched, the '*' key is used
     commands: [
       [null, 'DuckDuckGo', '*', 'https://duckduckgo.com', '/?q={}', '#111'],
-      ['Work', 'Analytics', 'a', 'https://analytics.google.com', null, '#ff6d00'],
-      ['Work', 'GitHub', 'g', 'https://github.com', '/search?q={}', '#333'],
-      ['Work', 'Inbox', 'I', 'https://inbox.google.com', '/search/{}', '#4285f4'],
-      ['Work', 'Keep', 'k', 'https://keep.google.com', '/#search/text={}', '#fb0'],
-      ['Look', 'Codrops', 'C', 'https://tympanus.net/codrops', '?search-type=posts&s={}', '#0099cc'],
-      ['Look', 'Hunt', 'H', 'https://www.producthunt.com', '/search?q={}', '#da552f'],
-      ['Look', 'Photos', 'P', 'https://photos.google.com', '/search/{}', '#34a853'],
-      ['Look', 'Unsplash', 'u', 'https://unsplash.com/new', '/search/{}', '#000'],
+      ['Work', 'LCMS Users', 'l', 'https://learn.defyventures.org', '/accounts/?query={}', '#000'],
+      ['Work', 'LCMS GitHub', 'lg', 'https://github.com/DefyVentures/LCMS', '/DefyVentures/LCMS/search?q={}', '#333'],
+      ['Work', 'LCMS Project', 'lp', 'https://github.com/DefyVentures/LCMS/projects/1', '/DefyVentures/LCMS/projects/1?card_filter_query={}', '#333'],
+      ['Docs', 'Django', 'd', 'https://docs.djangoproject.com/en/1.11/', '/en/1.11/search/?q={}', '#0c3c26'],
+      ['Docs', 'Bootstrap', 'b', 'https://getbootstrap.com/docs/3.3/', null, '#6f5499'],
+      ['Docs', 'Class-Based Views', 'c', 'http://ccbv.co.uk/', null, '#333'],
+      ['Docs', 'Bootswatch: Paper', 'bp', 'https://bootswatch.com/paper/', null, '#2f2f2f'],
+      ['Lurk', 'Google', 'g', 'https://encrypted.google.com', '/search?q={}', '#111'],
+      ['Lurk', 'GitHub', 'gh', 'https://github.com', '/search?q={}', '#333'],
       ['Lurk', 'Facebook', 'f', 'https://www.facebook.com', '/search/top/?q={}', '#3b5998'],
-      ['Lurk', 'Instagram', 'i', 'https://www.instagram.com', null, '#833ab4'],
-      ['Lurk', 'Reddit', 'r', 'https://www.reddit.com', '/search?q={}', '#5f99cf'],
       ['Lurk', 'Twitter', 't', 'https://twitter.com', '/search?q={}', '#1da1f2'],
-      ['Listen', 'Hypem', 'h', 'https://hypem.com/popular', '/search/{}', '#83c441'],
-      ['Listen', 'Line Radio', 'l', 'https://linerad.io', '/#{}', '#39CCCC'],
-      ['Listen', 'Pandora', 'p', 'https://www.pandora.com', '/artist/{}', '#005483'],
-      ['Listen', 'SoundCloud', 's', 'https://soundcloud.com/discover', '/search?q={}', '#ff8800'],
-      ['Watch', 'Academy', 'A', 'https://www.khanacademy.org/', '/search?page_search_query={}', '#9cb443'],
-      ['Watch', 'Netflix', 'n', 'https://www.netflix.com/browse', '/search?q={}', '#e50914'],
-      ['Watch', 'Twitch', 'T', 'https://www.twitch.tv/directory/following', null, '#6441a5'],
-      ['Watch', 'YouTube', 'y', 'https://youtube.com/feed/subscriptions', '/results?search_query={}', '#cd201f'],
-      ['Download', '7digital', '7', 'https://us.7digital.com', '/search?q={}', '#07606e'],
-      ['Download', 'Sky Torrents', 'S', 'https://skytorrents.in', '/search/all/ed/1?q={}', '#00d1b2'],
-      ['Download', 'Pirate Bay', 'b', 'https://thepiratebay.org', '/search/{}', '#4c4132'],
-      ['Download', 'YTS', 'Y', 'https://yts.gs/browse-movies/all/1080p/all/7/latest', '/browse-movies/{}', '#2f2f2f'],
+      //['Work', 'Analytics', 'a', 'https://analytics.google.com', null, '#ff6d00'],
+      //['Work', 'Inbox', 'I', 'https://inbox.google.com', '/search/{}', '#4285f4'],
+      //['Work', 'Keep', 'k', 'https://keep.google.com', '/#search/text={}', '#fb0'],
+      //['Look', 'Codrops', 'C', 'https://tympanus.net/codrops', '?search-type=posts&s={}', '#0099cc'],
+      //['Look', 'Hunt', 'H', 'https://www.producthunt.com', '/search?q={}', '#da552f'],
+      //['Look', 'Photos', 'P', 'https://photos.google.com', '/search/{}', '#34a853'],
+      //['Look', 'Unsplash', 'u', 'https://unsplash.com/new', '/search/{}', '#000'],
+      //['Lurk', 'Instagram', 'i', 'https://www.instagram.com', null, '#833ab4'],
+      //['Lurk', 'Reddit', 'r', 'https://www.reddit.com', '/search?q={}', '#5f99cf'],
+      //['Listen', 'Hypem', 'h', 'https://hypem.com/popular', '/search/{}', '#83c441'],
+      //['Listen', 'Line Radio', 'l', 'https://linerad.io', '/#{}', '#39CCCC'],
+      //['Listen', 'Pandora', 'p', 'https://www.pandora.com', '/artist/{}', '#005483'],
+      //['Listen', 'SoundCloud', 's', 'https://soundcloud.com/discover', '/search?q={}', '#ff8800'],
+      //['Watch', 'Academy', 'A', 'https://www.khanacademy.org/', '/search?page_search_query={}', '#9cb443'],
+      //['Watch', 'Netflix', 'n', 'https://www.netflix.com/browse', '/search?q={}', '#e50914'],
+      //['Watch', 'Twitch', 'T', 'https://www.twitch.tv/directory/following', null, '#6441a5'],
+      //['Watch', 'YouTube', 'y', 'https://youtube.com/feed/subscriptions', '/results?search_query={}', '#cd201f'],
+      //['Download', '7digital', '7', 'https://us.7digital.com', '/search?q={}', '#07606e'],
+      //['Download', 'Sky Torrents', 'S', 'https://skytorrents.in', '/search/all/ed/1?q={}', '#00d1b2'],
+      //['Download', 'Pirate Bay', 'b', 'https://thepiratebay.org', '/search/{}', '#4c4132'],
+      //['Download', 'YTS', 'Y', 'https://yts.gs/browse-movies/all/1080p/all/7/latest', '/browse-movies/{}', '#2f2f2f'],
     ],
 
     // give suggestions as you type
     suggestions: true,
 
     // max amount of suggestions that will ever be displayed
-    suggestionsLimit: 5,
+    suggestionsLimit: 6,
 
     // the order and limit for each suggestion influencer
     // "Default" suggestions come from CONFIG.defaultSuggestions
@@ -51,10 +59,10 @@
 
     // default search suggestions for the specified queries
     defaultSuggestions: {
-      'g': ['g/issues', 'g/pulls', 'gist.github.com', 'g/cadejscroggins', 'g/cadejscroggins/tilde'],
-      'l': ['l:electronic', 'l:chill', 'l:focus', 'l:sleep', 'l:ambient'],
-      'r': ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology', 'r/r/portland'],
-      's': ['s/you/likes', 's/discover/the-upload'],
+      'g': ['g/issues', 'lg', 'lp'],
+      'l': ['learn.defy.org', 'learn.defybox.org', 'lg', 'lp', 'l/accounts/', 'l/reports/'],
+      //'r': ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology', 'r/r/portland'],
+      //'s': ['s/you/likes', 's/discover/the-upload'],
     },
 
     // instantly redirect when a key is matched
@@ -62,7 +70,7 @@
     instantRedirect: false,
 
     // open queries in a new tab
-    newTab: true,
+    newTab: false,
 
     // dynamic background colors when command domains are matched
     colors: true,
@@ -76,7 +84,7 @@
     pathDelimiter: '/',
 
     // the delimiter between the hours and minutes in the clock
-    clockDelimiter: '&nbsp;',
+    clockDelimiter: ':',
 
     // note: you can pass in your search query via the q query param
     // e.g. going to file:///path/to/tilde/index.html?q=hamsters is equivalent
@@ -143,6 +151,7 @@
     margin-top: -.06em;
     font-size: 6rem;
     letter-spacing: .05em;
+    text-align: center;
     cursor: pointer;
   }
 
@@ -347,7 +356,10 @@
 </style>
 
 <div class="center">
-  <time id="clock"></time>
+  <div>
+    <time id="clock"></time>
+    <aside id="help"></aside>
+  </div>
 </div>
 
 <form class="overlay center" id="search-form" autocomplete="off" spellcheck="false">
@@ -356,8 +368,6 @@
     <ul id="search-suggestions"></ul>
   </div>
 </form>
-
-<aside class="overlay center" id="help"></aside>
 
 <script>
   const $ = {
